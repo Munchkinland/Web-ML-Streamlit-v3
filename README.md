@@ -1,5 +1,7 @@
 # ML Web Page using Streamlit
 
+![DALL·E 2023-12-31 10 25 23 - A young woman with a more pronounced punk-inspired, geeky style is avidly programming frontend on her laptop  She's seated in a vibrant workspace that](https://github.com/Munchkinland/Web-ML-Streamlit-v3/assets/92251234/b54ebc59-f6b1-450e-b08a-c5ba7312cbec)
+
 📝 Instructions
 
 Step 1: Train a New Model or Use the One from the Previous Project
