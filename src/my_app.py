@@ -5,13 +5,8 @@ import joblib
 
 # Cargar un modelo entrenado con Joblib
 
-
-
 def main():
     # Load the previously trained model
-    #model = load(open("models/RandomForestClass_100_71", "rb"))
-    
-    #model = load(open("C:/Users/Rubén/Desktop/Web-ML-Streamlit-v2-main/models/RandomForestClass_100_71", "rb"))
     
     model = joblib.load(open("../models/RandomForestClass_100_71", "rb"))
 
