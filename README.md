@@ -1,18 +1,61 @@
-# Pagina Web de ML con Streamlit
+# ML Web Page using Streamlit
 
-Buscar y comprender un dataset nuevo o utilizar el modelo del proyecto anterior.
-Integrarlo en Render usando una aplicación basada en Streamlit.
+📝 Instructions
 
-📝 Instrucciones
+Step 1: Train a New Model or Use the One from the Previous Project
+In the deployment module with Flask, we explored a dataset and trained a model that was subsequently used in a web application developed in Flask and deployed on Render. In this project, you can either use the same model and only change the web application, or find another dataset and train a new model.
 
-* Paso 1: Entrena un nuevo modelo o elige el del proyecto anterior
+Step 2: Develop a Web Application Using Streamlit
+With the skills acquired in this module, develop an interface to utilize the model. Style it as you see fit and note any external resources you have used for development.
 
-En el módulo de despliegue con Flask buscamos un conjunto de datos y entrenamos un modelo que posteriormente utilizamos en una aplicación web desarrollada en Flask y que desplegamos en Render. En este proyecto puedes utilizar el mismo modelo y cambiar únicamente la aplicación web, o buscar otro conjunto de datos y entrenar un nuevo modelo.
+Step 3: Integrate the Model and the Application on Render
+Create a free service on Render and integrate the work you have done to deploy the web application online. Don't forget to include the link to the service in your repository.
 
-* Paso 2: Desarrolla una aplicación web usando Streamlit
+Deploying on Render.com: Detailed Guide
 
-Con los conocimientos adquiridos en este módulo, desarrolla una interfaz para poder utilizar el modelo. Dale el estilo que más te convenga y anota los recursos externos que hayas utilizado para el desarrollo.
+Prepare Your Application
 
-* Paso 3: Integra el modelo y la aplicación en Render
+Ensure your application is in a Git repository.
 
-Crea un servicio gratuito en Render e integra el trabajo que has hecho para poder desplegar la aplicación web en línea. No olvides de incluir el enlace al servicio en tu repositorio.
+Include a requirements.txt for dependencies and a Procfile with the command web: streamlit run
+ your_app.py.
+Create a Render Account
+
+Sign up and connect your Git repository.
+
+Create a New Web Service
+
+Choose your repository in the Render dashboard.
+
+Set the environment to Python and configure build and start commands.
+
+Configure Environment Variables
+
+Securely set any necessary environment variables in Render's dashboard.
+
+Deploy Your Application
+
+Click "Deploy". Render will install dependencies and start your application, providing a URL upon completion.
+
+Continuous Deployment
+
+Render automatically redeploys your app with each Git push.
+
+Monitoring and Logs
+
+Use Render's tools to monitor performance and troubleshoot.
+
+Additional Features
+
+Add custom domains, set up HTTPS, scale your application, and more.
+
+Pricing
+
+Render offers a free tier and various priced tiers for more resources.
+
+For the most accurate instructions, refer to Render's official documentation.
+
+
+
+
+
