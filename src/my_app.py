@@ -1,7 +1,12 @@
 # Application interface with Streamlit
 
 import streamlit as st
-from pickle import load
+#from pickle import load
+import joblib
+
+# Cargar un modelo entrenado con Joblib
+
+
 
 def main():
     # Load the previously trained model
@@ -9,10 +14,8 @@ def main():
     
     #model = load(open("C:/Users/Rubén/Desktop/Web-ML-Streamlit-v2-main/models/RandomForestClass_100_71", "rb"))
     
-    model = load(open("../models/RandomForestClass_100_71", "rb"))
+    model = joblib.load(open("../models/RandomForestClass_100_71", "rb"))
 
-
-    
     st.title("Star type prediction")
 
     # Introductory message
