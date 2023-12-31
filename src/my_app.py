@@ -1,7 +1,6 @@
 # Application interface with Streamlit
 
 import streamlit as st
-#from pickle import load
 import joblib
 
 # Cargar un modelo entrenado con Joblib
